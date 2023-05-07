@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem dos sonhos</title>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="">Pacotes</a></li>
-                <li><a href="">Taxa</a></li>
-                <li><a href="">Contato</a></li>                
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxa</a></li>
+                <li><a href="#">Contato</a></li>                
             </ul>
         </nav>
         <h1>Venha realizar a viagem dos seus sonhos</h1>
     </header>
 
-    <section>
+    <section id="pacotes">
         <h2>Conheça nossos pacotes</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas, odio quis auctor semper, urna ex interdum nisl, eget viverra turpis orci quis lorem. Aenean sagittis est mi, quis egestas odio finibus nec. Curabitur rhoncus gravida mauris sit amet tincidunt. Nulla mi arcu, dignissim vel lacus quis, gravida vulputate elit. Mauris gravida risus sit amet ipsum ullamcorper placerat. Nulla eu turpis at est porta ornare. Donec quis sodales dui. Fusce non ipsum ultricies, iaculis ante id, blandit urna. Nam auctor justo at enim volutpat, lacinia iaculis sem suscipit. Praesent ultricies ligula mauris, nec efficitur dolor aliquet et. Nulla ornare diam eu augue dignissim pulvinar. Vivamus et lobortis mi. Nullam non dignissim leo. Vivamus blandit tristique sem in fermentum. Mauris et quam purus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas, odio quis auctor semper, urna ex interdum nisl, eget viverra turpis orci quis lorem. Aenean sagittis est mi, quis egestas odio finibus nec. Curabitur rhoncus gravida mauris sit amet tincidunt. Nulla mi arcu, dignissim vel lacus quis, gravida vulputate elit. Mauris gravida risus sit amet ipsum ullamcorper placerat. Nulla eu turpis at est porta ornare. Donec quis sodales dui. Fusce non ipsum ultricies, iaculis ante id, blandit urna. Nam auctor justo at enim volutpat, lacinia iaculis sem suscipit. Praesent ultricies ligula mauris, nec efficitur dolor aliquet et. Nulla ornare diam eu augue dignissim pulvinar. Vivamus et lobortis mi. Nullam non dignissim leo. Vivamus blandit tristique sem in fermentum. Mauris et quam purus.         
             Quisque dapibus dictum ex a luctus. Suspendisse laoreet lacinia nisi, vitae eleifend orci pellentesque venenatis. Curabitur porttitor rhoncus dui vitae aliquam. Nullam at tempor sem. Pellentesque condimentum mauris in neque efficitur, at tristique nisl efficitur. Curabitur efficitur eleifend ligula nec sollicitudin. Cras in sollicitudin turpis, quis fringilla mi. Quisque a tincidunt orci, ac euismod quam. Nunc nec quam ipsum. Donec nec erat tortor. Quisque gravida, ipsum non rhoncus porta, lectus arcu posuere eros, et elementum lacus mauris in nisl. Nunc non posuere quam, volutpat tristique odio. Morbi sed tortor nec lacus dignissim consectetur. Donec et sem id dui luctus congue. Nullam tincidunt eu purus ut venenatis.
             Mauris non venenatis lacus. Donec vitae quam ac metus porta accumsan. In consequat tellus semper rhoncus volutpat. Ut commodo dolor est, vel volutpat nisl porttitor at. Cras accumsan metus urna, sed pellentesque enim pellentesque quis. Donec ac rhoncus felis. Donec non tellus quis sem congue feugiat. Pellentesque porttitor semper lacus non semper. Donec auctor leo vitae nunc ornare fringilla. Suspendisse viverra vitae nunc sit amet vestibulum. Phasellus hendrerit condimentum neque id egestas.
             Donec ultrices iaculis dictum. Fusce viverra purus facilisis tellus dictum, quis gravida nunc sodales. Donec id dui nunc. Vivamus ac augue quam. Praesent eleifend mollis libero vel ultricies. Mauris faucibus placerat hendrerit. Sed ut viverra mauris, id porttitor turpis. Mauris ornare lacinia erat, at luctus nisl mattis quis. Sed vitae enim euismod, fringilla sem in, accumsan justo. Donec id tortor sollicitudin, hendrerit massa ut, viverra metus. Praesent vel neque odio.
@@ -30,25 +31,30 @@
             <a href="#">Link</a>
             <hr>
         </p>
-        <figure>
-            <img src="./assets/armands-brants-7k4tapnINpg-unsplash.jpg" alt="imagem de uma fonte de agua com uma estatua de um golfinho" width="400px">
-            <figcaption>Fonte de agua</figcaption>
-        </figure>
-        <figure>
-            <img src="./assets/jean-beller-WYqHPUMa_1M-unsplash.jpg" alt="imagem de uma ponte sobre um rio " width="400px">
-            <figcaption>Lago</figcaption>
-        </figure>
-        <figure>
-            <img src="./assets/luis-wittenberg-0W8F_7KeAfs-unsplash.jpg" alt="imagem de uma torre com um relogio" width="400px">
-            <figcaption>Big Bang</figcaption>
-        </figure>
-        <figure>
-            <img src="./assets/ngadi-ibrahim-oLQu-YUO4a4-unsplash.jpg" alt="imagem de uma pessoa caminhando no deserto" width="400px">
-            <figcaption>Deserto</figcaption>
-        </figure>
 
-        <iframe width="300"  src="https://www.youtube.com/embed/JvKUkYgdsW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <!-- <iframe width="300"  src="https://www.youtube.com/embed/g4bDe-OV4xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        <div class="figuras">
+            <figure>
+                <img src="./assets/armands-brants-7k4tapnINpg-unsplash.jpg" alt="imagem de uma fonte de agua com uma estatua de um golfinho" width="400px">
+                <figcaption>Fonte de agua</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/jean-beller-WYqHPUMa_1M-unsplash.jpg" alt="imagem de uma ponte sobre um rio " width="400px">
+                <figcaption>Lago</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/luis-wittenberg-0W8F_7KeAfs-unsplash.jpg" alt="imagem de uma torre com um relogio" width="400px">
+                <figcaption>Big Bang</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/ngadi-ibrahim-oLQu-YUO4a4-unsplash.jpg" alt="imagem de uma pessoa caminhando no deserto" width="400px">
+                <figcaption>Deserto</figcaption>
+            </figure>
+        </div>
+
+        <div class="videos">
+            <iframe width="300"  src="https://www.youtube.com/embed/JvKUkYgdsW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+       
     </section>
 
     <section>
@@ -117,7 +123,7 @@
     <section>
         <h2>Taxas e serviços</h2>
         <p>Veja nossas taxas ṕara serviços</p>
-            <table border>
+            <table>
                 <caption>Descrição dos serviços e respectivos valores</caption>
                 <thead>
                     <tr>
