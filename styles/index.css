@@ -1,23 +1,9 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     color: #010101;
     font-weight: 400;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 2.2em;
-}
-
-header {
-    background-color: #f4511e;
-}
-
-section, footer {
-    margin: 40px;
 }
 
 h1 {
@@ -33,57 +19,3 @@ h2 {
     color: #303030;
     font-weight: 600;
 }
-
-nav li a {
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav li {
-    float: left;
-}
-
-nav ul {
-    float: right;
-    list-style: none;
-}
-
-nav {
-    font-size: 12px;
-    letter-spacing: 4px;
-    height: 50px;
-    background-color: #f03b;
-    padding-right: 40px;
-}
-
-table {
-    width: 100%;
-}
-
-table td {
-    color: #303030;
-    padding: 5px;
-}
-/* even = selecionar linha par */
-table tr:nth-child(even) {
-    background-color: #e9e9e9;
-}
-/* even = selecionar linha impar */
-table tr:nth-child(odd) {
-    background-color: #dbdbdb;
-}
-
-table thead th {
-    background-color: #f4511e;
-    color: white;
-}
-
-#pacotes .figuras figure {
-    display: inline-block;
-}
-
-#pacotes .figuras, #pacotes .videos {
-    text-align: center;
-}
-
